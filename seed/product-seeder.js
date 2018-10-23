@@ -8,18 +8,18 @@ mongoose.connect('mongodb://localhost:27017/shopping', { useNewUrlParser: true }
 
 var products = [new Product({
     imagePath: 'https://cdn-www.bluestacks.com/bs-images/pubg-bike1.png',
-    title: 'Gothic Video Game1',
-    description: 'First Awesome game!!',
+    title: 'Gothic Game1',
+    description: 'First game!!',
     price: 10
 }), new Product({
     imagePath: 'https://cdn-www.bluestacks.com/bs-images/pubg-bike1.png',
-    title: 'Gothic Video Game2',
-    description: 'Second Awesome game!!',
+    title: 'Gothic Game2',
+    description: 'Second game!!',
     price: 20
 }), new Product({
     imagePath: 'https://cdn-www.bluestacks.com/bs-images/pubg-bike1.png',
-    title: 'Gothic Video Game3',
-    description: 'Third Awesome game!!',
+    title: 'Gothic Game3',
+    description: 'Third game!!',
     price: 30
 })];
 
